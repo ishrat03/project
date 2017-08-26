@@ -1,0 +1,7 @@
+The Hashtable class provides a means of organizing data based on some user-defined key structure.
+
+For example, in an address list hash table you could store and sort data based on a key such as ZIP code rather than on a person's name.
+
+The specific meaning of keys with regard to hash tables is totally dependent on the usage of the hash table and the data it contains.
+
+For more detail about this class, check The Hashtable.

@@ -1,0 +1,10 @@
+The if, elseif ...else and switch statements are used to take decision based on the different condition.
+
+You can use conditional statements in your code to make your decisions. PHP supports following three decision making statements -
+
+Decision making statements in PHP
+if...else statement - use this statement if you want to execute a set of code when a condition is true and another if the condition is not true
+
+elseif statement - is used with the if...else statement to execute a set of code if one of the several condition is true
+
+switch statement - is used if you want to select one of many blocks of code to be executed, use the Switch statement. The switch statement is used to avoid long blocks of if..elseif..else code.

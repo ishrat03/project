@@ -1,0 +1,25 @@
+C++ Pointers in Detail
+Pointers have many but easy concepts and they are very important to C++ programming. There are following few important pointer concepts which should be clear to a C++ programmer:
+
+Concept	Description
+C++ Null Pointers
+
+C++ supports null pointer, which is a constant with a value of zero defined in several standard libraries.
+C++ pointer arithmetic
+
+There are four arithmetic operators that can be used on pointers: ++, --, +, -
+C++ pointers vs arrays
+
+There is a close relationship between pointers and arrays. Let us check how?
+C++ array of pointers
+
+You can define arrays to hold a number of pointers.
+C++ pointer to pointer
+
+C++ allows you to have pointer on a pointer and so on.
+Passing pointers to functions
+
+Passing an argument by reference or by address both enable the passed argument to be changed in the calling function by the called function.
+Return pointer from functions
+
+C++ allows a function to return a pointer to local variable, static variable and dynamically allocated memory as well.

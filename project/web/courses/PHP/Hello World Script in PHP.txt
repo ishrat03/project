@@ -1,0 +1,31 @@
+"Hello World" Script in PHP
+To get a feel for PHP, first start with simple PHP scripts. Since "Hello, World!" is an essential example, first we will create a friendly little "Hello, World!" script.
+
+As mentioned earlier, PHP is embedded in HTML. That means that in amongst your normal HTML (or XHTML if you're cutting-edge) you'll have PHP statements like this -
+
+<html>
+   
+   <head>
+      <title>Hello World</title>
+   </head>
+   
+   <body>
+      <?php echo "Hello, World!";?>
+   </body>
+
+</html>
+It will produce following result -
+
+Hello, World!
+If you examine the HTML output of the above example, you'll notice that the PHP code is not present in the file sent from the server to your Web browser. All of the PHP present in the Web page is processed and stripped from the page; the only thing returned to the client from the Web server is pure HTML output.
+
+All PHP code must be included inside one of the three special markup tags ate are recognised by the PHP Parser.
+
+<?php PHP code goes here ?>
+
+<?    PHP code goes here ?>
+
+<script language="php"> PHP code goes here </script>
+A most common tag is the <?php...?> and we will also use the same tag in our tutorial.
+
+From the next chapter we will start with PHP Environment Setup on your machine and then we will dig out almost all concepts related to PHP to make you comfortable with the PHP language.

@@ -1,0 +1,36 @@
+Default Values for Parameters
+When you define a function, you can specify a default value for each of the last parameters. This value will be used if the corresponding argument is left blank when calling to the function.
+
+This is done by using the assignment operator and assigning values for the arguments in the function definition. If a value for that parameter is not passed when the function is called, the default given value is used, but if a value is specified, this default value is ignored and the passed value is used instead. Consider the following example:
+
+#include <iostream>
+using namespace std;
+ 
+int sum(int a, int b=20) {
+   int result;
+
+   result = a + b;
+  
+   return (result);
+}
+
+int main () {
+   // local variable declaration:
+   int a = 100;
+   int b = 200;
+   int result;
+ 
+   // calling a function to add the values.
+   result = sum(a, b);
+   cout << "Total value is :" << result << endl;
+
+   // calling a function again as follows.
+   result = sum(a);
+   cout << "Total value is :" << result << endl;
+ 
+   return 0;
+}
+When the above code is compiled and executed, it produces the following result:
+
+Total value is :300
+Total value is :120

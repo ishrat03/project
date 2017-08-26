@@ -1,0 +1,9 @@
+Reference variables are created using defined constructors of the classes. They are used to access objects. These variables are declared to be of a specific type that cannot be changed. For example, Employee, Puppy, etc.
+
+Class objects and various type of array variables come under reference datatype.
+
+Default value of any reference variable is null.
+
+A reference variable can be used to refer any object of the declared type or any compatible type.
+
+Example: Animal animal = new Animal("giraffe");

@@ -1,0 +1,13 @@
+Function Declarations
+A function declaration tells the compiler about a function name and how to call the function. The actual body of the function can be defined separately.
+
+A function declaration has the following parts:
+
+return_type function_name( parameter list );
+For the above defined function max(), following is the function declaration:
+
+int max(int num1, int num2);
+Parameter names are not importan in function declaration only their type is required, so following is also valid declaration:
+
+int max(int, int);
+Function declaration is required when you define a function in one source file and you call that function in another file. In such case, you should declare the function at the top of the file calling the function.S

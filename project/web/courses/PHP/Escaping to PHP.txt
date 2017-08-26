@@ -1,0 +1,6 @@
+Escaping to PHP
+The PHP parsing engine needs a way to differentiate PHP code from other elements in the page. The mechanism for doing so is known as 'escCanonical PHP tags
+The most universally effective PHP tag style is -
+
+<?php...?>
+If you use this style, you can be positive that your tags will always be correctly interpreted.aping to PHP'. There are four ways to do this -

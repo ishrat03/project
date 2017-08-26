@@ -1,0 +1,27 @@
+The interface keyword is used to declare an interface. Here is a simple example to declare an interface -
+
+Example
+Following is an example of an interface -
+
+/* File name : NameOfInterface.java */
+import java.lang.*;
+// Any number of import statements
+
+public interface NameOfInterface {
+   // Any number of final, static fields
+   // Any number of abstract method declarations\
+}
+Interfaces have the following properties -
+
+An interface is implicitly abstract. You do not need to use the abstract keyword while declaring an interface.
+
+Each method in an interface is also implicitly abstract, so the abstract keyword is not needed.
+
+Methods in an interface are implicitly public.
+
+Example
+/* File name : Animal.java */
+interface Animal {
+   public void eat();
+   public void travel();
+}

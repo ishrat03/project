@@ -1,0 +1,8 @@
+Boolean
+They have only two possible values either true or false. PHP provides a couple of constants especially for use as Booleans: TRUE and FALSE, which can be used like so -
+
+if (TRUE)
+   print("This will always print<br>");
+
+else
+   print("This will never print<br>");

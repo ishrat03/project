@@ -1,0 +1,19 @@
+The typedef Keyword
+There is an easier way to define structs or you could "alias" types you create. For example:
+
+typedef struct {
+   char  title[50];
+   char  author[50];
+   char  subject[100];
+   int   book_id;
+}Books;
+Now, you can use Books directly to define variables of Books type without using struct keyword. Following is the example:
+
+Books Book1, Book2;
+You can use typedef keyword for non-structs as well as follows:
+
+typedef long int *pint32;
+ 
+pint32 x, y, z;
+x, y and z are all pointers to long ints
+

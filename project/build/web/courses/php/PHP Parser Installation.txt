@@ -1,0 +1,17 @@
+PHP Parser Installation
+Before you proceed it is important to make sure that you have proper environment setup on your machine to develop your web programs using PHP.
+
+Type the following address into your browser's address box.
+
+http://127.0.0.1/info.php
+If this displays a page showing your PHP installation related information then it means you have PHP and Webserver installed properly. Otherwise you have to follow given procedure to install PHP on your computer.
+
+This section will guide you to install and configure PHP over the following four platforms -
+
+PHP Installation on Linux or Unix with Apache
+
+PHP Installation on Mac OS X with Apache
+
+PHP Installation on Windows NT/2000/XP with IIS
+
+PHP Installation on Windows NT/2000/XP with Apache

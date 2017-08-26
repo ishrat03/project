@@ -1,0 +1,5 @@
+
+Comments are like helping text in your C program and they are ignored by the compiler. They start with /* and terminate with the characters */ as shown below -
+
+/* my first program in C */
+You cannot have comments within comments and they do not occur within a string or character literals.

@@ -1,0 +1,26 @@
+The collections framework defines several interfaces. This section provides an overview of each interface -
+
+Sr.No.	Interface & Description
+1	The Collection Interface
+This enables you to work with groups of objects; it is at the top of the collections hierarchy.
+
+2	The List Interface
+This extends Collection and an instance of List stores an ordered collection of elements.
+
+3	The Set
+This extends Collection to handle sets, which must contain unique elements.
+
+4	The SortedSet
+This extends Set to handle sorted sets.
+
+5	The Map
+This maps unique keys to values.
+
+6	The Map.Entry
+This describes an element (a key/value pair) in a map. This is an inner class of Map.
+
+7	The SortedMap
+This extends Map so that the keys are maintained in an ascending order.
+
+8	The Enumeration
+This is legacy interface defines the methods by which you can enumerate (obtain one at a time) the elements in a collection of objects. This legacy interface has been superceded by Iterator.

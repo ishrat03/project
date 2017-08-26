@@ -1,0 +1,303 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class C_002dfunctions_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  static {
+    _jspx_dependants = new java.util.ArrayList<String>(1);
+    _jspx_dependants.add("/signinheader.jsp");
+  }
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>C Functions</title>\n");
+      out.write("     <style>\n");
+      out.write("        .cc {\n");
+      out.write("            font-size: 20px;\n");
+      out.write("               float: left;\n");
+      out.write("        } \n");
+      out.write("        .cc ul li a{\n");
+      out.write("            text-decoration: none;\n");
+      out.write("            color:red;\n");
+      out.write("        }\n");
+      out.write("        .study{\n");
+      out.write("            \n");
+      out.write("            margin-left: 300px;\n");
+      out.write("            background-color: wheat;\n");
+      out.write("        }\n");
+      out.write("        .study p{\n");
+      out.write("            margin-left: 20px;\n");
+      out.write("            margin-top:  20px;\n");
+      out.write("            font-size: 20px;\n");
+      out.write("        }\n");
+      out.write("        .study h1{\n");
+      out.write("            margin-left: 20px;\n");
+      out.write("        }\n");
+      out.write("                .pre-btn{\n");
+      out.write("            border: 5px solid blueviolet;width: 100px;\n");
+      out.write("            background-color: blueviolet;\n");
+      out.write("            float: left;\n");
+      out.write("            margin-left: 0px;\n");
+      out.write("        }\n");
+      out.write("        .pre-btn  a{\n");
+      out.write("            color: white; \n");
+      out.write("                \n");
+      out.write("        }\n");
+      out.write("        .nxt-btn{\n");
+      out.write("         border: 5px solid blueviolet;width: 100px;\n");
+      out.write("            background-color: blueviolet;\n");
+      out.write("             \n");
+      out.write("            margin-left: 998px;\n");
+      out.write("            \n");
+      out.write("        }\n");
+      out.write("        .nxt-btn a{\n");
+      out.write("            color: white;\n");
+      out.write("        }\n");
+      out.write("    </style>\n");
+      out.write("    </head>\n");
+      out.write("    <body style=\"background-image: url(images/2.jpg);background-size: cover\">\n");
+      out.write("        ");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("    <head>\n");
+      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("        <title>Header</title>\n");
+      out.write("        <link rel=\"stylesheet\" href=\"signinheader.css\"/>\n");
+      out.write("    </head>\n");
+      out.write("    <body>\n");
+      out.write("        <div class=\"signin\">\n");
+      out.write("            \n");
+      out.write("                <button class=\"button\"><a href=\"useracount.jsp\">Home</a></button>\n");
+      out.write("                <button class=\"button\"><a href=\"course.jsp\">Courses</a></button>\n");
+      out.write("               <button> <a href=\"logout.jsp\">Logout</a></button>\n");
+      out.write("        </div>\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+      out.write("<br/><br/><br/>\n");
+      out.write("                <div class=\"cc\">\n");
+      out.write("            <aside>\n");
+      out.write("<ul class=\"nav nav-list primary left-menu\">\n");
+      out.write("<li class=\"heading\">C Programming Tutorial</li>\n");
+      out.write("<li><a href=\"C.jsp\">C - Home</a></li>\n");
+      out.write("<li><a href=\"C-overview.jsp\">C - Overview</a></li>\n");
+      out.write("<li><a href=\"C-environment.jsp\">C - Environment Setup</a></li>\n");
+      out.write("<li><a href=\"C-structure.jsp\">C - Program Structure</a></li>\n");
+      out.write("<li><a href=\"C-syntax.jsp\">C - Basic Syntax</a></li>\n");
+      out.write("<li><a href=\"C-datatype.jsp\">C - Data Types</a></li>\n");
+      out.write("<li><a href=\"C-variables.jsp\">C - Variables</a></li>\n");
+      out.write("<li><a href=\"C-constants.jsp\">C - Constants</a></li>\n");
+      out.write("<li><a href=\"C-storage.jsp\">C - Storage Classes</a></li>\n");
+      out.write("<li><a href=\"operators.jsp\">C - Operators</a></li>\n");
+      out.write("<li><a href=\"C-decision.jsp\">C - Decision Making</a></li>\n");
+      out.write("<li><a href=\"C-loops.jsp\">C - Loops</a></li>\n");
+      out.write("<li><a href=\"C-functions.jsp\">C - Functions</a></li>\n");
+      out.write("<li><a href=\"C-scope.jsp\">C - Scope Rules</a></li>\n");
+      out.write("<li><a href=\"C-array.jsp\">C - Arrays</a></li>\n");
+      out.write("<li><a href=\"C-pointer.jsp\">C - Pointers</a></li>\n");
+      out.write("<li><a href=\"C-string.jsp\">C - Strings</a></li>\n");
+      out.write("<li><a href=\"C-structure.jsp\">C - Structures</a></li>\n");
+      out.write("<li><a href=\"C-unions.jsp\">C - Unions</a></li>\n");
+      out.write("<li><a href=\"C-bit.jsp\">C - Bit Fields</a></li>\n");
+      out.write("<li><a href=\"C-typedef.jsp\">C - Typedef</a></li>\n");
+      out.write("<li><a href=\"C-input.jsp\">C - Input &amp; Output</a></li>\n");
+      out.write("<li><a href=\"C-file.jsp\">C - File I/O</a></li>\n");
+      out.write("<li><a href=\"C-pre.jsp\">C - Preprocessors</a></li>\n");
+      out.write("<li><a href=\"C-header.jsp\">C - Header Files</a></li>\n");
+      out.write("<li><a href=\"C-casting.jsp\">C - Type Casting</a></li>\n");
+      out.write("<li><a href=\"C-error.jsp\">C - Error Handling</a></li>\n");
+      out.write("<li><a href=\"C-recursion.jsp\">C - Recursion</a></li>\n");
+      out.write("<li><a href=\"C-variables.jsp\">C - Variable Arguments</a></li>\n");
+      out.write("<li><a href=\"C-memory.jsp\">C - Memory Management</a></li>\n");
+      out.write("<li><a href=\"C-commnand.jsp\">C - Command Line Arguments</a></li>\n");
+      out.write("</ul>\n");
+      out.write("\n");
+      out.write("</aside>\n");
+      out.write("</div>\n");
+      out.write("                <div class=\"study\">\n");
+      out.write("                    <center><h1>C-Functions</h1></center>\n");
+      out.write("     <p>A function is a group of statements that together perform a task. Every C program has at least one function, which is <b>main()</b>, and all the most trivial programs can define additional functions.</p>\n");
+      out.write("<p>You can divide up your code into separate functions. How you divide up your code among different functions is up to you, but logically the division is such that each function performs a specific task.</p>\n");
+      out.write("<p>A function <b>declaration</b> tells the compiler about a function's name, return type, and parameters. A function <b>definition</b> provides the actual body of the function.</p>\n");
+      out.write("<p>The C standard library provides numerous built-in functions that your program can call. For example, <b>strcat()</b> to concatenate two strings, <b>memcpy()</b> to copy one memory location to another location, and many more functions.</p>\n");
+      out.write("<p>A function can also be referred as a method or a sub-routine or a procedure, etc.</p>\n");
+      out.write("<h2>Defining a Function</h2>\n");
+      out.write("<p>The general form of a function definition in C programming language is as follows &minus;</p>\n");
+      out.write("<pre class=\"prettyprint notranslate\">\n");
+      out.write("return_type function_name( parameter list ) {\n");
+      out.write("   body of the function\n");
+      out.write("}\n");
+      out.write("</pre>\n");
+      out.write("<p>A function definition in C programming consists of a <i>function header</i> and a <i>function body</i>. Here are all the parts of a function &minus;</p>\n");
+      out.write("<ul class=\"list\">\n");
+      out.write("<li><p><b>Return Type</b> &minus; A function may return a value. The <b>return_type</b> is the data type of the value the function returns. Some functions perform the desired operations without returning a value. In this case, the return_type is the keyword <b>void</b>.</p></li>\n");
+      out.write("<li><p><b>Function Name</b> &minus; This is the actual name of the function. The function name and the parameter list together constitute the function signature.</p></li>\n");
+      out.write("<li><p><b>Parameters</b> &minus; A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter. This value is referred to as actual parameter or argument. The parameter list refers to the type, order, and number of the parameters of a function. Parameters are optional; that is, a function may contain no parameters.</p></li>\n");
+      out.write("<li><p><b>Function Body</b> &minus; The function body contains a collection of statements that define what the function does.</p></li>\n");
+      out.write("</ul>\n");
+      out.write("<h2>Example</h2>\n");
+      out.write("<p>Given below is the source code for a function called <b>max()</b>. This function takes two parameters num1 and num2 and returns the maximum value between the two &minus;</p>\n");
+      out.write("<pre class=\"prettyprint notranslate\">\n");
+      out.write("/* function returning the max between two numbers */\n");
+      out.write("int max(int num1, int num2) {\n");
+      out.write("\n");
+      out.write("   /* local variable declaration */\n");
+      out.write("   int result;\n");
+      out.write(" \n");
+      out.write("   if (num1 &gt; num2)\n");
+      out.write("      result = num1;\n");
+      out.write("   else\n");
+      out.write("      result = num2;\n");
+      out.write(" \n");
+      out.write("   return result; \n");
+      out.write("}\n");
+      out.write("</pre>\n");
+      out.write("<h2>Function Declarations</h2>\n");
+      out.write("<p>A function <b>declaration</b> tells the compiler about a function name and how to call the function. The actual body of the function can be defined separately.</p>\n");
+      out.write("<p>A function declaration has the following parts &minus;</p>\n");
+      out.write("<pre class=\"result notranslate\">\n");
+      out.write("return_type function_name( parameter list );\n");
+      out.write("</pre>\n");
+      out.write("<p>For the above defined function max(), the function declaration is as follows &minus;</p>\n");
+      out.write("<pre class=\"result notranslate\">\n");
+      out.write("int max(int num1, int num2);\n");
+      out.write("</pre>\n");
+      out.write("<p>Parameter names are not important in function declaration only their type is required, so the following is also a valid declaration &minus;</p>\n");
+      out.write("<pre class=\"result notranslate\">\n");
+      out.write("int max(int, int);\n");
+      out.write("</pre>\n");
+      out.write("<p>Function declaration is required when you define a function in one source file and you call that function in another file. In such case, you should declare the function at the top of the file calling the function.</p>\n");
+      out.write("<h2>Calling a Function</h2>\n");
+      out.write("<p>While creating a C function, you give a definition of what the function has to do. To use a function, you will have to call that function to perform the defined task.</p>\n");
+      out.write("<p>When a program calls a function, the program control is transferred to the called function. A called function performs a defined task and when its return statement is executed or when its function-ending closing brace is reached, it returns the program control back to the main program.</p>\n");
+      out.write("<p>To call a function, you simply need to pass the required parameters along with the function name, and if the function returns a value, then you can store the returned value. For example &minus;</p>\n");
+      out.write("<pre class=\"prettyprint notranslate tryit\">\n");
+      out.write("#include &lt;stdio.h&gt;\n");
+      out.write(" \n");
+      out.write("/* function declaration */\n");
+      out.write("int max(int num1, int num2);\n");
+      out.write(" \n");
+      out.write("int main () {\n");
+      out.write("\n");
+      out.write("   /* local variable definition */\n");
+      out.write("   int a = 100;\n");
+      out.write("   int b = 200;\n");
+      out.write("   int ret;\n");
+      out.write(" \n");
+      out.write("   /* calling a function to get max value */\n");
+      out.write("   ret = max(a, b);\n");
+      out.write(" \n");
+      out.write("   printf( \"Max value is : %d\\n\", ret );\n");
+      out.write(" \n");
+      out.write("   return 0;\n");
+      out.write("}\n");
+      out.write(" \n");
+      out.write("/* function returning the max between two numbers */\n");
+      out.write("int max(int num1, int num2) {\n");
+      out.write("\n");
+      out.write("   /* local variable declaration */\n");
+      out.write("   int result;\n");
+      out.write(" \n");
+      out.write("   if (num1 &gt; num2)\n");
+      out.write("      result = num1;\n");
+      out.write("   else\n");
+      out.write("      result = num2;\n");
+      out.write(" \n");
+      out.write("   return result; \n");
+      out.write("}\n");
+      out.write("</pre>\n");
+      out.write("<p>We have kept max() along with main() and compiled the source code. While running the final executable, it would produce the following result &minus;</p>\n");
+      out.write("<pre class=\"result notranslate\">\n");
+      out.write("Max value is : 200\n");
+      out.write("</pre>\n");
+      out.write("<h2>Function Arguments</h2>\n");
+      out.write("<p>If a function is to use arguments, it must declare variables that accept the values of the arguments. These variables are called the <b>formal parameters</b> of the function.</p>\n");
+      out.write("<p>Formal parameters behave like other local variables inside the function and are created upon entry into the function and destroyed upon exit.</p>\n");
+      out.write("<p>While calling a function, there are two ways in which arguments can be passed to a function &minus;</p>\n");
+      out.write("<table class=\"table table-bordered\">\n");
+      out.write("<tr>\n");
+      out.write("<th>S.N.</th>\n");
+      out.write("<th style=\"text-align:center;\">Call Type &amp; Description</th>\n");
+      out.write("</tr>\n");
+      out.write("<tr>\n");
+      out.write("<td>1</td>\n");
+      out.write("<td><a href=\"/cprogramming/c_function_call_by_value.htm\">Call by value</a>\n");
+      out.write("<p>This method copies the actual value of an argument into the formal parameter of the function. In this case, changes made to the parameter inside the function have no effect on the argument.</p></td> \n");
+      out.write("</tr>\n");
+      out.write("<tr>\n");
+      out.write("<td>2</td>\n");
+      out.write("<td><a href=\"/cprogramming/c_function_call_by_reference.htm\">Call by reference</a>\n");
+      out.write("<p>This method copies the address of an argument into the formal parameter. Inside the function, the address is used to access the actual argument used in the call. This means that changes made to the parameter affect the argument.</p></td> \n");
+      out.write("</tr>\n");
+      out.write("</table>\n");
+      out.write("<p>By default, C uses <b>call by value</b> to pass arguments. In general, it means the code within a function cannot alter the arguments used to call the function.</p>\n");
+      out.write("<hr />\n");
+      out.write("<div class=\"pre-btn\">\n");
+      out.write("<a href=\"C-decision.jsp\"\"><i class=\"icon icon-arrow-circle-o-left big-font\"></i> Previous Page</a>\n");
+      out.write("</div>\n");
+      out.write("\n");
+      out.write("<div class=\"nxt-btn\">\n");
+      out.write("<a href=\"C-functions.jsp\">Next Page <i class=\"icon icon-arrow-circle-o-right big-font\"></i>&nbsp;</a>\n");
+      out.write("</div>\n");
+      out.write("<hr />\n");
+      out.write("                </div>\n");
+      out.write("    </body>\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

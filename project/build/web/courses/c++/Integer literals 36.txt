@@ -1,0 +1,21 @@
+
+An integer literal can be a decimal, octal, or hexadecimal constant. A prefix specifies the base or radix: 0x or 0X for hexadecimal, 0 for octal, and nothing for decimal.
+
+An integer literal can also have a suffix that is a combination of U and L, for unsigned and long, respectively. The suffix can be uppercase or lowercase and can be in any order.
+
+Here are some examples of integer literals:
+
+212         // Legal
+215u        // Legal
+0xFeeL      // Legal
+078         // Illegal: 8 is not an octal digit
+032UU       // Illegal: cannot repeat a suffix
+Following are other examples of various types of Integer literals:
+
+85         // decimal
+0213       // octal
+0x4b       // hexadecimal
+30         // int
+30u        // unsigned int
+30l        // long
+30ul       // unsigned long

@@ -1,0 +1,7 @@
+Following are the three ways to compare two dates -
+
+You can use getTime( ) to obtain the number of milliseconds that have elapsed since midnight, January 1, 1970, for both objects and then compare these two values.
+
+You can use the methods before( ), after( ), and equals( ). Because the 12th of the month comes before the 18th, for example, new Date(99, 2, 12).before(new Date (99, 2, 18)) returns true.
+
+You can use the compareTo( ) method, which is defined by the Comparable interface and implemented by Date.

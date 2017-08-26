@@ -1,0 +1,21 @@
+The most direct way to create a string is to write -
+
+String greeting = "Hello world!";
+Whenever it encounters a string literal in your code, the compiler creates a String object with its value in this case, "Hello world!'.
+
+As with any other object, you can create String objects by using the new keyword and a constructor. The String class has 11 constructors that allow you to provide the initial value of the string using different sources, such as an array of characters.
+
+Example
+public class StringDemo {
+
+   public static void main(String args[]) {
+      char[] helloArray = { 'h', 'e', 'l', 'l', 'o', '.' };
+      String helloString = new String(helloArray);  
+      System.out.println( helloString );
+   }
+}
+This will produce the following result -
+
+Output
+hello.
+Note - The String class is immutable, so that once it is created a String object cannot be changed. If there is a necessity to make a lot of modifications to Strings of characters, then you should use String Buffer & String Builder Classes.

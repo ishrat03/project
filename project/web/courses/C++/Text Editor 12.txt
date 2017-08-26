@@ -1,0 +1,7 @@
+This will be used to type your program. Examples of few editors include Windows Notepad, OS Edit command, Brief, Epsilon, EMACS, and vim or vi.
+
+Name and version of text editor can vary on different operating systems. For example, Notepad will be used on Windows and vim or vi can be used on windows as well as Linux, or UNIX.
+
+The files you create with your editor are called source files and for C++ they typically are named with the extension .cpp, .cp, or .c.
+
+Before starting your programming, make sure you have one text editor in place and you have enough experience to type your C++ program.

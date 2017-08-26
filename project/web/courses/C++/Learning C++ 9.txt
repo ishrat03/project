@@ -1,0 +1,5 @@
+The most important thing to do when learning C++ is to focus on concepts and not get lost in language technical details.
+
+The purpose of learning a programming language is to become a better programmer; that is, to become more effective at designing and implementing new systems and at maintaining old ones.
+
+C++ supports a variety of programming styles. You can write in the style of Fortran, C, Smalltalk, etc., in any language. Each style can achieve its aims effectively while maintaining runtime and space efficiency.

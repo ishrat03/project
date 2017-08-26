@@ -1,0 +1,5 @@
+For executing any java program, you need to
+:-install the JDK if you don't have installed it, download the JDK and install it.
+:-set path of the jdk/bin directory. http://www.javatpoint.com/how-to-set-path-in-java
+:-create the java program
+:-compile and run the java program

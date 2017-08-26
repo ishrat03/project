@@ -1,0 +1,14 @@
+SMAP
+java_002dvariabletype_jsp.java
+JSP
+*S JSP
+*F
++ 0 java-variabletype.jsp
+java-variabletype.jsp
++ 1 signinheader.jsp
+signinheader.jsp
+*L
+5,57:49
+5#1,21:106
+61#0,225:126
+*E

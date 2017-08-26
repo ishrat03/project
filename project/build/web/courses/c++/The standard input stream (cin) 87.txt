@@ -1,0 +1,28 @@
+The standard input stream (cin)
+The predefined object cin is an instance of istream class. The cin object is said to be attached to the standard input device, which usually is the keyboard. The cin is used in conjunction with the stream extraction operator, which is written as >> which are two greater than signs as shown in the following example.
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main( ) {
+   char name[50];
+ 
+   cout << "Please enter your name: ";
+   cin >> name;
+   cout << "Your name is: " << name << endl;
+ 
+}
+When the above code is compiled and executed, it will prompt you to enter a name. You enter a value and then hit enter to see the result something as follows:
+
+Please enter your name: cplusplus
+Your name is: cplusplus
+The C++ compiler also determines the data type of the entered value and selects the appropriate stream extraction operator to extract the value and store it in the given variables.
+
+The stream extraction operator >> may be used more than once in a single statement. To request more than one datum you can use the following:
+
+cin >> name >> age;
+This will be equivalent to the following two statements:
+
+cin >> name;
+cin >> age;

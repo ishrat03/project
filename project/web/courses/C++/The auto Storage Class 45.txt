@@ -1,0 +1,8 @@
+The auto Storage Class
+The auto storage class is the default storage class for all local variables.
+
+{
+   int mount;
+   auto int month;
+}
+The example above defines two variables with the same storage class, auto can only be used within functions, i.e., local variables.

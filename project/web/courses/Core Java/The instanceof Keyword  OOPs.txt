@@ -1,0 +1,25 @@
+Let us use the instanceof operator to check determine whether Mammal is actually an Animal, and dog is actually an Animal.
+
+Example
+
+interface Animal{}
+class Mammal implements Animal{}
+
+public class Dog extends Mammal {
+
+   public static void main(String args[]) {
+      Mammal m = new Mammal();
+      Dog d = new Dog();
+
+      System.out.println(m instanceof Animal);
+      System.out.println(d instanceof Mammal);
+      System.out.println(d instanceof Animal);
+   }
+}
+This will produce the following result -
+
+Output
+
+true
+true
+true

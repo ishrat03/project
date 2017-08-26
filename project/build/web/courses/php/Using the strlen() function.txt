@@ -1,0 +1,12 @@
+Using the strlen() function
+The strlen() function is used to find the length of a string.
+
+Let's find the length of our string "Hello world!":
+
+<?php
+   echo strlen("Hello world!");
+?>
+This will produce the following result -
+
+12
+The length of a string is often used in loops or other functions, when it is important to know when the string ends. (i.e. in a loop, we would want to stop the loop after the last character in the string)

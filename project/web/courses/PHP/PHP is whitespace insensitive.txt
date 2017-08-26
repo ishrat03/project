@@ -1,0 +1,12 @@
+PHP is whitespace insensitive
+Whitespace is the stuff you type that is typically invisible on the screen, including spaces, tabs, and carriage returns (end-of-line characters).
+
+PHP whitespace insensitive means that it almost never matters how many whitespace characters you have in a row.one whitespace character is the same as many such characters.
+
+For example, each of the following PHP statements that assigns the sum of 2 + 2 to the variable $four is equivalent -
+
+$four = 2 + 2; // single spaces
+$four <tab>=<tab2<tab>+<tab>2 ; // spaces and tabs
+$four =
+2+
+2; // multiple lines

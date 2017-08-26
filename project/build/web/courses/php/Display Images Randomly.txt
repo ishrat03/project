@@ -1,0 +1,31 @@
+Display Images Randomly
+The PHP rand() function is used to generate a random number.i This function can generate numbers with-in a given range. The random number generator should be seeded to prevent a regular pattern of numbers being generated. This is achieved using the srand() function that specifies the seed number as its argument.
+
+Following example demonstrates how you can display different image each time out of four images -
+
+<html>
+   <body>
+   
+      <?php
+         srand( microtime() * 1000000 );
+         $num = rand( 1, 4 );
+         
+         switch( $num ) {
+            case 1: $image_file = "/php/images/logo.png";
+               break;
+            
+            case 2: $image_file = "/php/images/php.jpg";
+               break;
+            
+            case 3: $image_file = "/php/images/logo.png";
+               break;
+            
+            case 4: $image_file = "/php/images/php.jpg";
+               break;
+         }
+         echo "Random Image : <img src=$image_file />";
+      ?>
+      
+   </body>
+</html>
+It will produce the following result -

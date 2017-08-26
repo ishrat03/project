@@ -1,0 +1,6 @@
+The Java if statement is used to test the condition. It checks boolean condition: true or false. There are various types of if statement in java.
+
+if statement
+if-else statement
+nested if statement
+if-else-if ladder

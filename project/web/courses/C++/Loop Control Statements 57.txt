@@ -1,0 +1,15 @@
+Loop Control Statements
+Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.
+
+C++ supports the following control statements. Click the following links to check their detail.
+
+Control Statement	Description
+break statement
+
+Terminates the loop or switch statement and transfers execution to the statement immediately following the loop or switch.
+continue statement
+
+Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.
+goto statement
+
+Transfers control to the labeled statement. Though it is not advised to use goto statement in your program.

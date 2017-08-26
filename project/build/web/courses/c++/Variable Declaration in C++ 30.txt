@@ -1,0 +1,52 @@
+
+A variable declaration provides assurance to the compiler that there is one variable existing with the given type and name so that compiler proceed for further compilation without needing complete detail about the variable. A variable declaration has its meaning at the time of compilation only, compiler needs actual variable definition at the time of linking of the program.
+
+A variable declaration is useful when you are using multiple files and you define your variable in one of the files which will be available at the time of linking of the program. You will use extern keyword to declare a variable at any place. Though you can declare a variable multiple times in your C++ program, but it can be defined only once in a file, a function or a block of code.
+
+Example
+Try the following example where a variable has been declared at the top, but it has been defined inside the main function:
+
+#include <iostream>
+using namespace std;
+
+// Variable declaration:
+extern int a, b;
+extern int c;
+extern float f;
+  
+int main () {
+   // Variable definition:
+   int a, b;
+   int c;
+   float f;
+ 
+   // actual initialization
+   a = 10;
+   b = 20;
+   c = a + b;
+ 
+   cout << c << endl ;
+
+   f = 70.0/3.0;
+   cout << f << endl ;
+ 
+   return 0;
+}
+When the above code is compiled and executed, it produces the following result -
+
+30
+23.3333
+Same concept applies on function declaration where you provide a function name at the time of its declaration and its actual definition can be given anywhere else. For example -
+
+// function declaration
+int func();
+
+int main() {
+   // function call
+   int i = func();
+}
+
+// function definition
+int func() {
+   return 0;
+}

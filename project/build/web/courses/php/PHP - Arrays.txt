@@ -1,0 +1,11 @@
+An array is a data structure that stores one or more similar type of values in a single value. For example if you want to store 100 numbers then instead of defining 100 variables its easy to define an array of 100 length.
+
+There are three different kind of arrays and each array value is accessed using an ID c which is called array index.
+
+Numeric array - An array with a numeric index. Values are stored and accessed in linear fashion.
+
+Associative array - An array with strings as index. This stores element values in association with key values rather than in a strict linear index order.
+
+Multidimensional array - An array containing one or more arrays and values are accessed using multiple indices
+
+NOTE - Built-in array functions is given in function reference PHP Array Functions

@@ -1,0 +1,14 @@
+Using the strpos() function
+The strpos() function is used to search for a string or character within a string.
+
+If a match is found in the string, this function will return the position of the first match. If no match is found, it will return FALSE.
+
+Let's see if we can find the string "world" in our string -
+
+<?php
+   echo strpos("Hello world!","world");
+?>
+This will produce the following result -
+
+ 6
+As you see the position of the string "world" in our string is position 6. The reason that it is 6, and not 7, is that the first position in the string is 0, and not 1

@@ -1,0 +1,6 @@
+:
+This is actual C++ compiler, which will be used to compile your source code into final executable program.
+
+Most C++ compilers don't care what extension you give your source code, but if you don't specify otherwise, many will use .cpp by default
+
+Most frequently used and free available compiler is GNU C/C++ compiler, otherwise you can have compilers either from HP or Solaris if you have respective Operating Systems.

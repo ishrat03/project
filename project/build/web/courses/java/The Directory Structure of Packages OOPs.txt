@@ -1,0 +1,66 @@
+Two major results occur when a class is placed in a package -
+
+The name of the package becomes a part of the name of the class, as we just discussed in the previous section.
+
+The name of the package must match the directory structure where the corresponding bytecode resides.
+
+Here is simple way of managing your files in Java -
+
+Put the source code for a class, interface, enumeration, or annotation type in a text file whose name is the simple name of the type and whose extension is .java.
+
+For example -
+
+// File Name :  Car.java
+package vehicle;
+
+public class Car {
+   // Class implementation.   
+}
+Now, put the source file in a directory whose name reflects the name of the package to which the class belongs -
+
+....\vehicle\Car.java
+Now, the qualified class name and pathname would be as follows -
+
+Class name ? vehicle.Car
+Path name ? vehicle\Car.java (in windows)
+In general, a company uses its reversed Internet domain name for its package names.
+
+Example - A company's Internet domain name is apple.com, then all its package names would start with com.apple. Each component of the package name corresponds to a subdirectory.
+
+Example - The company had a com.apple.computers package that contained a Dell.java source file, it would be contained in a series of subdirectories like this -
+
+....\com\apple\computers\Dell.java
+At the time of compilation, the compiler creates a different output file for each class, interface and enumeration defined in it. The base name of the output file is the name of the type, and its extension is .class.
+
+For example -
+
+// File Name: Dell.java
+package com.apple.computers;
+
+public class Dell {
+}
+
+class Ups {
+}
+Now, compile this file as follows using -d option -
+
+$javac -d . Dell.java
+The files will be compiled as follows -
+
+.\com\apple\computers\Dell.class
+.\com\apple\computers\Ups.class
+You can import all the classes or interfaces defined in \com\apple\computers\ as follows -
+
+import com.apple.computers.*;
+Like the .java source files, the compiled .class files should be in a series of directories that reflect the package name. However, the path to the .class files does not have to be the same as the path to the .java source files. You can arrange your source and class directories separately, as -
+
+<path-one>\sources\com\apple\computers\Dell.java
+
+<path-two>\classes\com\apple\computers\Dell.class
+By doing this, it is possible to give access to the classes directory to other programmers without revealing your sources. You also need to manage source and class files in this manner so that the compiler and the Java Virtual Machine (JVM) can find all the types your program uses.
+
+The full path to the classes directory, <path-two>\classes, is called the class path, and is set with the CLASSPATH system variable. Both the compiler and the JVM construct the path to your .class files by adding the package name to the class path.
+
+Say <path-two>\classes is the class path, and the package name is com.apple.computers, then the compiler and JVM will look for .class files in <path-two>\classes\com\apple\computers.
+
+A class path may include several paths. Multiple paths should be separated by a semicolon (Windows) or colon (Unix). By default, the compiler and the JVM search the current directory and the JAR file containing the Java platform classes so that these directories are automatically in the class path.

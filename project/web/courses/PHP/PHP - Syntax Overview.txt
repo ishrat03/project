@@ -1,0 +1,1 @@
+This chapter will give you an idea of very basic syntax of PHP and very important to make your PHP foundation strong.

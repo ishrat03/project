@@ -1,0 +1,2 @@
+Prerequisites
+Before proceeding with this tutorial you should have at least basic understanding of computer programming, Internet, Database, and MySQL etc is very helpful.

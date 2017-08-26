@@ -1,0 +1,26 @@
+The String class includes a method for concatenating two strings -
+
+string1.concat(string2);
+This returns a new string that is string1 with string2 added to it at the end. You can also use the concat() method with string literals, as in -
+
+"My name is ".concat("Zara");
+Strings are more commonly concatenated with the + operator, as in -
+
+"Hello," + " world" + "!"
+which results in -
+
+"Hello, world!"
+Let us look at the following example -
+
+Example
+public class StringDemo {
+
+   public static void main(String args[]) {
+      String string1 = "saw I was ";
+      System.out.println("Dot " + string1 + "Tod");
+   }
+}
+This will produce the following result -
+
+Output
+Dot saw I was Tod

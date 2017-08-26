@@ -1,0 +1,14 @@
+String literals
+String literals are enclosed in double quotes. A string contains characters that are similar to character literals: plain characters, escape sequences, and universal characters.
+
+You can break a long line into multiple lines using string literals and separate them using whitespaces.
+
+Here are some examples of string literals. All the three forms are identical strings.
+
+"hello, dear"
+
+"hello, \
+
+dear"
+
+"hello, " "d" "ear"

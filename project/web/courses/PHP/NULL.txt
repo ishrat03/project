@@ -1,0 +1,12 @@
+NULL
+NULL is a special type that only has one value: NULL. To give a variable the NULL value, simply assign it like this -
+
+$my_var = NULL;
+The special constant NULL is capitalized by convention, but actually it is case insensitive; you could just as well have typed -
+
+$my_var = null;
+A variable that has been assigned NULL has the following properties -
+
+It evaluates to FALSE in a Boolean context.
+
+It returns FALSE when tested with IsSet() function.

@@ -1,0 +1,5 @@
+ASP-style tags
+ASP-style tags mimic the tags used by Active Server Pages to delineate code blocks. ASP-style tags look like this -
+
+<%...%>
+To use ASP-style tags, you will need to set the configuration option in your php.ini file.

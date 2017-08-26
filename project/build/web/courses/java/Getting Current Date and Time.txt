@@ -1,0 +1,18 @@
+This is a very easy method to get current date and time in Java. You can use a simple Date object with toString() method to print the current date and time as follows -
+
+Example
+import java.util.Date;
+public class DateDemo {
+
+   public static void main(String args[]) {
+      // Instantiate a Date object
+      Date date = new Date();
+
+      // display time and date using toString()
+      System.out.println(date.toString());
+   }
+}
+This will produce the following result -
+
+Output
+on May 04 09:51:52 CDT 2009

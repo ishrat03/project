@@ -1,0 +1,31 @@
+Classes & Objects in Detail
+So far, you have got very basic idea about C++ Classes and Objects. There are further interesting concepts related to C++ Classes and Objects which we will discuss in various sub-sections listed below:
+
+Concept	Description
+Class member functions
+
+A member function of a class is a function that has its definition or its prototype within the class definition like any other variable.
+Class access modifiers
+
+A class member can be defined as public, private or protected. By default members would be assumed as private.
+Constructor & destructor
+
+A class constructor is a special function in a class that is called when a new object of the class is created. A destructor is also a special function which is called when created object is deleted.
+C++ copy constructor
+
+The copy constructor is a constructor which creates an object by initializing it with an object of the same class, which has been created previously.
+C++ friend functions
+
+A friend function is permitted full access to private and protected members of a class.
+C++ inline functions
+
+With an inline function, the compiler tries to expand the code in the body of the function in place of a call to the function.
+The this pointer in C++
+
+Every object has a special pointer this which points to the object itself.
+Pointer to C++ classes
+
+A pointer to a class is done exactly the same way a pointer to a structure is. In fact a class is really just a structure with functions in it.
+Static members of a class
+
+Both data members and function members of a class can be declared as static.

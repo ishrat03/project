@@ -1,0 +1,33 @@
+Format time using struct tm
+The tm structure is very important while working with date and time in either C or C++. This structure holds the date and time in the form of a C structure as mentioned above. Most of the time related functions makes use of tm structure. Following is an example which makes use of various date and time related functions and tm structure:
+
+While using structure in this chapter, I'm making an assumption that you have basic understanding on C structure and how to access structure members using arrow -> operator.
+
+#include <iostream>
+#include <ctime>
+
+using namespace std;
+
+int main( ) {
+   // current date/time based on current system
+   time_t now = time(0);
+
+   cout << "Number of sec since January 1,1970:" << now << endl;
+
+   tm *ltm = localtime(&now);
+
+   // print various components of tm structure.
+   cout << "Year" << 1900 + ltm->tm_year<<endl;
+   cout << "Month: "<< 1 + ltm->tm_mon<< endl;
+   cout << "Day: "<<  ltm->tm_mday << endl;
+   cout << "Time: "<< 1 + ltm->tm_hour << ":";
+   cout << 1 + ltm->tm_min << ":";
+   cout << 1 + ltm->tm_sec << endl;
+}
+When the above code is compiled and executed, it produces the following result:
+
+Number of sec since January 1, 1970:1294548238
+Year: 2011
+Month: 1
+Day: 8
+Time: 22: 44:59

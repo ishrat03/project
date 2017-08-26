@@ -1,0 +1,13 @@
+Initializing Arrays
+You can initialize C++ array elements either one by one or using a single statement as follows:
+
+double balance[5] = {1000.0, 2.0, 3.4, 17.0, 50.0};
+The number of values between braces { } can not be larger than the number of elements that we declare for the array between square brackets [ ]. Following is an example to assign a single element of the array:
+
+If you omit the size of the array, an array just big enough to hold the initialization is created. Therefore, if you write:
+
+double balance[] = {1000.0, 2.0, 3.4, 17.0, 50.0};
+You will create exactly the same array as you did in the previous example.
+
+balance[4] = 50.0;
+The above statement assigns element number 5th in the array a value of 50.0. Array with 4th index will be 5th, i.e., last element because all arrays have 0 as the index of their first element which is also called base index. Following is the pictorial representaion of the same array we discussed above: 

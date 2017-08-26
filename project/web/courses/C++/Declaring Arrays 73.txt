@@ -1,0 +1,7 @@
+Declaring Arrays
+To declare an array in C++, the programmer specifies the type of the elements and the number of elements required by an array as follows:
+
+type arrayName [ arraySize ];
+This is called a single-dimension array. The arraySize must be an integer constant greater than zero and type can be any valid C++ data type. For example, to declare a 10-element array called balance of type double, use this statement:
+
+double balance[10];

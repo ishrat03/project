@@ -1,0 +1,15 @@
+String Concatenation Operator
+To concatenate two string variables together, use the dot (.) operator -
+
+<?php
+   $string1="Hello World";
+   $string2="1234";
+   
+   echo $string1 . " " . $string2;
+?>
+This will produce the following result -
+
+Hello World 1234
+If we look at the code above you see that we used the concatenation operator two times. This is because we had to insert a third string.
+
+Between the two string variables we added a string with a single character, an empty space, to separate the two variables.

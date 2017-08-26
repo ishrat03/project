@@ -1,0 +1,19 @@
+The standard output stream (cout)
+The predefined object cout is an instance of ostream class. The cout object is said to be "connected to" the standard output device, which usually is the display screen. The cout is used in conjunction with the stream insertion operator, which is written as << which are two less than signs as shown in the following example.
+
+#include <iostream>
+ 
+using namespace std;
+ 
+int main( ) {
+   char str[] = "Hello C++";
+ 
+   cout << "Value of str is : " << str << endl;
+}
+When the above code is compiled and executed, it produces the following result:
+
+Value of str is : Hello C++
+The C++ compiler also determines the data type of variable to be output and selects the appropriate stream insertion operator to display the value. The << operator is overloaded to output data items of built-in types integer, float, double, strings and pointer values.
+
+The insertion operator << may be used more than once in a single statement as shown above and endl is used to add a new-line at the end of the line.
+

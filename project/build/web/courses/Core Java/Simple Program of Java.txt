@@ -1,0 +1,3 @@
+In this page, we will learn how to write the simple program of java. We can write a simple hello java program easily after installing the JDK.
+
+To create a simple java program, you need to create a class that contains main method. Let's understand the requirement first.

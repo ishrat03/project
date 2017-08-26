@@ -1,0 +1,10 @@
+Operators Categories
+All the operators we have discussed above can be categorised into following categories -
+
+Unary prefix operators, which precede a single operand.
+
+Binary operators, which take two operands and perform a variety of arithmetic and logical operations.
+
+The conditional operator (a ternary operator), which takes three operands and evaluates either the second or third expression, depending on the evaluation of the first expression.
+
+Assignment operators, which assign a value to a variable.

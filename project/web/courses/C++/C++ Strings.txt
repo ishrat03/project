@@ -1,0 +1,5 @@
+C++ provides following two types of string representations:
+
+The C-style character string.
+
+The string class type introduced with Standard C++.

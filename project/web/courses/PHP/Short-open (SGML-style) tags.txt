@@ -1,0 +1,9 @@
+Short-open (SGML-style) tags
+Short or short-open tags look like this -
+
+<?...?>
+Short tags are, as one might expect, the shortest option You must do one of two things to enable PHP to recognize the tags -
+
+Choose the --enable-short-tags configuration option when you're building PHP.
+
+Set the short_open_tag setting in your php.ini file to on. This option must be disabled to parse XML with PHP because the same syntax is used for XML tags.

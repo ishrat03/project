@@ -1,0 +1,7 @@
+The Vector class is similar to a traditional Java array, except that it can grow as necessary to accommodate new elements.
+
+Like an array, elements of a Vector object can be accessed via an index into the vector.
+
+The nice thing about using the Vector class is that you don't have to worry about setting it to a specific size upon creation; it shrinks and grows automatically when necessary.
+
+For more details about this class, check The Vector

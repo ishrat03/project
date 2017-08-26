@@ -1,0 +1,8 @@
+Differences between constants and variables are
+There is no need to write a dollar sign ($) before a constant, where as in Variable one has to write a dollar sign.
+
+Constants cannot be defined by simple assignment, they may only be defined using the define() function.
+
+Constants may be defined and accessed anywhere without regard to variable scoping rules.
+
+Once the Constants have been set, may not be redefined or undefined.

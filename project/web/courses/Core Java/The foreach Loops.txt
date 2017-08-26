@@ -1,0 +1,23 @@
+JDK 1.5 introduced a new for loop known as foreach loop or enhanced for loop, which enables you to traverse the complete array sequentially without using an index variable.
+
+Example
+The following code displays all the elements in the array myList -
+
+public class TestArray {
+
+   public static void main(String[] args) {
+      double[] myList = {1.9, 2.9, 3.4, 3.5};
+
+      // Print all the array elements
+      for (double element: myList) {
+         System.out.println(element);
+      }
+   }
+}
+This will produce the following result -
+
+Output
+1.9
+2.9
+3.4
+3.5

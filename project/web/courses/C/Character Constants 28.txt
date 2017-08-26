@@ -1,0 +1,20 @@
+Character literals are enclosed in single quotes, e.g., 'x' can be stored in a simple variable of char type.
+
+A character literal can be a plain character (e.g., 'x'), an escape sequence (e.g., '\t'), or a universal character (e.g., '\u02C0').
+
+There are certain characters in C that represent special meaning when preceded by a backslash for example, newline (\n) or tab (\t).
+
+Here, you have a list of such escape sequence codes -
+Following is the example to show a few escape sequence characters -
+
+#include <stdio.h>
+
+int main() {
+
+   printf("Hello\tWorld\n\n");
+
+   return 0;
+}
+When the above code is compiled and executed, it produces the following result -
+
+Hello World

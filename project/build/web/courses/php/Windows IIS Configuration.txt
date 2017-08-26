@@ -1,0 +1,2 @@
+Windows IIS Configuration
+To configure IIS on your Windows machine you can refer your IIS Reference Manual shipped along with IIS.

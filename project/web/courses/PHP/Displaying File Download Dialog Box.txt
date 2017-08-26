@@ -1,0 +1,19 @@
+Displaying "File Download" Dialog Box
+Sometime it is desired that you want to give option where a use will click a link and it will pop up a "File Download" box to the user in stead of displaying actual content. This is very easy and will be achieved through HTTP header.
+
+The HTTP header will be different from the actual header where we send Content-Type as text/html\n\n. In this case content type will be application/octet-stream and actual file name will be concatenated along with it.
+
+For example,if you want make a FileName file downloadable from a given link then its syntax will be as follows.
+
+#!/usr/bin/perl
+
+# HTTP Header
+print "Content-Type:application/octet-stream; name=\"FileName\"\r\n";
+print "Content-Disposition: attachment; filename=\"FileName\"\r\n\n";
+
+# Actual File Content
+open( FILE, "<FileName" );
+
+while(read(FILE, $buffer, 100) ){
+   print("$buffer");
+}

@@ -1,0 +1,18 @@
+PHP is case sensitive
+Yeah it is true that PHP is a case sensitive language. Try out following example -
+
+<html>
+   <body>
+      
+      <?php
+         $capital = 67;
+         print("Variable capital is $capital<br>");
+         print("Variable CaPiTaL is $CaPiTaL<br>");
+      ?>
+      
+   </body>
+</html>
+This will produce the following result -
+
+Variable capital is 67
+Variable CaPiTaL is

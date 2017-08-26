@@ -1,0 +1,8 @@
+Characteristics of PHP
+Five important characteristics make PHP's practical nature possible -
+
+Simplicity
+Efficiency
+Security
+Flexibility
+Familiarity

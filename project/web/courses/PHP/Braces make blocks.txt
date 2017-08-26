@@ -1,0 +1,12 @@
+Braces make blocks
+Although statements cannot be combined like expressions, you can always put a sequence of statements anywhere a statement can go by enclosing them in a set of curly braces.
+
+Here both statements are equivalent -
+
+if (3 == 2 + 1)
+   print("Good - I haven't totally lost my mind.<br>");
+   
+if (3 == 2 + 1) {
+   print("Good - I haven't totally");
+   print("lost my mind.<br>");
+}

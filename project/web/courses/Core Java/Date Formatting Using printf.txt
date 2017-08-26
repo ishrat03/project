@@ -1,0 +1,58 @@
+Date and time formatting can be done very easily using printf method. You use a two-letter format, starting with t and ending in one of the letters of the table as shown in the following code.
+
+Example
+import java.util.Date;
+public class DateDemo {
+
+   public static void main(String args[]) {
+      // Instantiate a Date object
+      Date date = new Date();
+
+      // display time and date
+      String str = String.format("Current Date/Time : %tc", date );
+
+      System.out.printf(str);
+   }
+}
+This will produce the following result -
+
+Output
+Current Date/Time : Sat Dec 15 16:37:57 MST 2012
+It would be a bit silly if you had to supply the date multiple times to format each part. For that reason, a format string can indicate the index of the argument to be formatted.
+
+The index must immediately follow the % and it must be terminated by a $.
+
+Example
+import java.util.Date;
+public class DateDemo {
+
+   public static void main(String args[]) {
+      // Instantiate a Date object
+      Date date = new Date();
+  
+      // display time and date
+      System.out.printf("%1$s %2$tB %2$td, %2$tY", "Due date:", date);
+   }
+}
+This will produce the following result -
+
+Output
+Due date: February 09, 2004
+Alternatively, you can use the < flag. It indicates that the same argument as in the preceding format specification should be used again.
+
+Example
+import java.util.Date;
+public class DateDemo {
+
+   public static void main(String args[]) {
+      // Instantiate a Date object
+      Date date = new Date();
+  
+      // display formatted date
+      System.out.printf("%s %tB %<te, %<tY", "Due date:", date);
+   }
+}
+This will produce the following result -
+
+Output
+Due date: February 09, 2004

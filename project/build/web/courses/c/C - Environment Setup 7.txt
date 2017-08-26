@@ -1,0 +1,15 @@
+ry it Option Online
+We have set up the C Programming environment on-line, so that you can compile and execute all the available examples on line. It gives you confidence in what you are reading and enables you to verify the programs with different options. Feel free to modify any example and execute it on-line.
+
+Try the following example using our on-line compiler available at CodingGround.
+
+#include <stdio.h>
+
+int main() {
+
+   /* my first program in C */
+   printf("Hello, World! \n");
+   
+   return 0;
+}
+For most of the examples given in this tutorial, you will find a Try it option in our website code sections at the top right corner that will take you to the online compiler. So just make use of it and enjoy your learning.

@@ -1,0 +1,7 @@
+C++ is used by hundreds of thousands of programmers in essentially every application domain.
+
+C++ is being highly used to write device drivers and other softwares that rely on direct manipulation of hardware under realtime constraints.
+
+C++ is widely used for teaching and research because it is clean enough for successful teaching of basic concepts.
+
+Anyone who has used either an Apple Macintosh or a PC running Windows has indirectly used C++ because the primary user interfaces of these systems are written in C++.

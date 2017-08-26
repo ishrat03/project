@@ -1,0 +1,35 @@
+The String Class in C++
+The standard C++ library provides a string class type that supports all the operations mentioned above, additionally much more functionality. We will study this class in C++ Standard Library but for now let us check following example:
+
+At this point, you may not understand this example because so far we have not discussed Classes and Objects. So can have a look and proceed until you have understanding on Object Oriented Concepts.
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main () {
+   string str1 = "Hello";
+   string str2 = "World";
+   string str3;
+   int  len ;
+
+   // copy str1 into str3
+   str3 = str1;
+   cout << "str3 : " << str3 << endl;
+
+   // concatenates str1 and str2
+   str3 = str1 + str2;
+   cout << "str1 + str2 : " << str3 << endl;
+
+   // total lenghth of str3 after concatenation
+   len = str3.size();
+   cout << "str3.size() :  " << len << endl;
+
+   return 0;
+}
+When the above code is compiled and executed, it produces result something as follows:
+
+str3 : Hello
+str1 + str2 : HelloWorld
+str3.size() :  10

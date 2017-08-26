@@ -1,0 +1,24 @@
+The const Keyword
+You can use const prefix to declare constants with a specific type as follows:
+
+const type variable = value;
+Following example explains it in detail:
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   const int  LENGTH = 10;
+   const int  WIDTH  = 5;
+   const char NEWLINE = '\n';
+   int area;  
+   
+   area = LENGTH * WIDTH;
+   cout << area;
+   cout << NEWLINE;
+   return 0;
+}
+When the above code is compiled and executed, it produces the following result:
+
+50
+Note that it is a good programming practice to define constants in CAPITALS.

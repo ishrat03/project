@@ -1,0 +1,42 @@
+Calling a Function
+While creating a C++ function, you give a definition of what the function has to do. To use a function, you will have to call or invoke that function.
+
+When a program calls a function, program control is transferred to the called function. A called function performs defined task and when its return statement is executed or when its function-ending closing brace is reached, it returns program control back to the main program.
+
+To call a function, you simply need to pass the required parameters along with function name, and if function returns a value, then you can store returned value. For example:
+
+#include <iostream>
+using namespace std;
+ 
+// function declaration
+int max(int num1, int num2);
+ 
+int main () {
+   // local variable declaration:
+   int a = 100;
+   int b = 200;
+   int ret;
+ 
+   // calling a function to get max value.
+   ret = max(a, b);
+ 
+   cout << "Max value is : " << ret << endl;
+ 
+   return 0;
+}
+ 
+// function returning the max between two numbers
+int max(int num1, int num2)  {
+   // local variable declaration
+   int result;
+ 
+   if (num1 > num2)
+      result = num1;
+   else
+      result = num2;
+ 
+   return result; 
+}
+I kept max() function along with main() function and compiled the source code. While running final executable, it would produce the following result:
+
+Max value is : 200

@@ -1,0 +1,37 @@
+Defining Numbers in C++
+You have already defined numbers in various examples given in previous chapters. Here is another consolidated example to define various types of numbers in C++:
+
+#include <iostream>
+using namespace std;
+ 
+int main () {
+   // number definition:
+   short  s;
+   int    i;
+   long   l;
+   float  f;
+   double d;
+   
+   // number assignments;
+   s = 10;      
+   i = 1000;    
+   l = 1000000; 
+   f = 230.47;  
+   d = 30949.374;
+   
+   // number printing;
+   cout << "short  s :" << s << endl;
+   cout << "int    i :" << i << endl;
+   cout << "long   l :" << l << endl;
+   cout << "float  f :" << f << endl;
+   cout << "double d :" << d << endl;
+ 
+   return 0;
+}
+When the above code is compiled and executed, it produces the following result:
+
+short  s :10
+int    i :1000
+long   l :1000000
+float  f :230.47
+double d :30949.4

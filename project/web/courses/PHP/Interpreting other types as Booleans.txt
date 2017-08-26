@@ -1,0 +1,24 @@
+Interpreting other types as Booleans
+Here are the rules for determine the "truth" of any value not already of the Boolean type -
+
+If the value is a number, it is false if exactly equal to zero and true otherwise.
+
+If the value is a string, it is false if the string is empty (has zero characters) or is the string "0", and is true otherwise.
+
+Values of type NULL are always false.
+
+If the value is an array, it is false if it contains no other values, and it is true otherwise. For an object, containing a value means having a member variable that has been assigned a value.
+
+Valid resources are true (although some functions that return resources when they are successful will return FALSE when unsuccessful).
+
+Don't use double as Booleans.
+
+Each of the following variables has the truth value embedded in its name when it is used in a Boolean context.
+
+$true_num = 3 + 0.14159;
+$true_str = "Tried and true"
+$true_array[49] = "An array element";
+$false_array = array();
+$false_null = NULL;
+$false_num = 999 - 999;
+$false_str = "";

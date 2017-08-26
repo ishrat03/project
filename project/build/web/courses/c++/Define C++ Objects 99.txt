@@ -1,0 +1,5 @@
+A class provides the blueprints for objects, so basically an object is created from a class. We declare objects of a class with exactly the same sort of declaration that we declare variables of basic types. Following statements declare two objects of class Box:
+
+Box Box1;          // Declare Box1 of type Box
+Box Box2;          // Declare Box2 of type Box
+Both of the objects Box1 and Box2 will have their own copy of data members.

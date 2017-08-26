@@ -1,0 +1,20 @@
+SimpleDateFormat is a concrete class for formatting and parsing dates in a locale-sensitive manner. SimpleDateFormat allows you to start by choosing any user-defined patterns for date-time formatting.
+
+Example
+import java.util.*;
+import java.text.*;
+
+public class DateDemo {
+
+   public static void main(String args[]) {
+      Date dNow = new Date( );
+      SimpleDateFormat ft = 
+      new SimpleDateFormat ("E yyyy.MM.dd 'at' hh:mm:ss a zzz");
+
+      System.out.println("Current Date: " + ft.format(dNow));
+   }
+}
+This will produce the following result -
+
+Output
+Current Date: Sun 2004.07.18 at 04:14:09 PM PDT

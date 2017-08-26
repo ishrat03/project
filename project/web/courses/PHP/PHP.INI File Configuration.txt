@@ -1,0 +1,4 @@
+PHP.INI File Configuration
+The PHP configuration file, php.ini, is the final and most immediate way to affect PHP's functionality.
+
+Just Check it here - PHP.INI File Configuration

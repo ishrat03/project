@@ -1,0 +1,4 @@
+constant() function
+As indicated by the name, this function will return the value of the constant.
+
+This is useful when you want to retrieve value of a constant, but you do not know its name, i.e. It is stored in a variable or returned by a function.

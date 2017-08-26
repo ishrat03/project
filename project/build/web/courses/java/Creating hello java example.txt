@@ -1,0 +1,14 @@
+Let's create the hello java program:
+
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
+}  
+Test it Now
+save this file as Simple.java
+
+
+To compile:	javac Simple.java
+To execute:	java Simple
+Output:Hello Java

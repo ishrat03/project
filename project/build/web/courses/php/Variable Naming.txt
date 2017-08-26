@@ -1,0 +1,8 @@
+Variable Naming
+Rules for naming a variable is -
+
+Variable names must begin with a letter or underscore character.
+
+A variable name can consist of numbers, letters, underscores but you cannot use characters like + , - , % , ( , ) . & , etc
+
+There is no size limit for variables.

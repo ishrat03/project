@@ -1,0 +1,28 @@
+There are few other operators supported by Java Language.
+
+Conditional Operator ( ? : )
+Conditional operator is also known as the ternary operator. This operator consists of three operands and is used to evaluate Boolean expressions. The goal of the operator is to decide, which value should be assigned to the variable. The operator is written as -
+
+variable x = (expression) ? value if true : value if false
+Following is an example -
+
+Example
+
+public class Test {
+
+   public static void main(String args[]) {
+      int a, b;
+      a = 10;
+      b = (a == 1) ? 20: 30;
+      System.out.println( "Value of b is : " +  b );
+
+      b = (a == 10) ? 20: 30;
+      System.out.println( "Value of b is : " + b );
+   }
+}
+This will produce the following result -
+
+Output
+
+Value of b is : 30
+Value of b is : 20

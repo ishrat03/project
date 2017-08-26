@@ -1,0 +1,9 @@
+C++ fully supports object-oriented programming, including the four pillars of object-oriented development:
+
+Encapsulation
+
+Data hiding
+
+Inheritance
+
+Polymorphism

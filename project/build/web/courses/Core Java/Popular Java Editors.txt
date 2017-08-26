@@ -1,0 +1,7 @@
+To write your Java programs, you will need a text editor. There are even more sophisticated IDEs available in the market. But for now, you can consider one of the following -
+
+Notepad - On Windows machine, you can use any simple text editor like Notepad (Recommended for this tutorial), TextPad.
+
+Netbeans - A Java IDE that is open-source and free which can be downloaded from https://www.netbeans.org/index.html.
+
+Eclipse - A Java IDE developed by the eclipse open-source community and can be downloaded from https://www.eclipse.org/.

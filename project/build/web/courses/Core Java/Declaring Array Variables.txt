@@ -1,0 +1,14 @@
+To use an array in a program, you must declare a variable to reference the array, and you must specify the type of array the variable can reference. Here is the syntax for declaring an array variable -
+
+Syntax
+dataType[] arrayRefVar;   // preferred way.
+or
+dataType arrayRefVar[];  // works but not preferred way.
+Note - The style dataType[] arrayRefVar is preferred. The style dataType arrayRefVar[] comes from the C/C++ language and was adopted in Java to accommodate C/C++ programmers.
+
+Example
+The following code snippets are examples of this syntax -
+
+double[] myList;   // preferred way.
+or
+double myList[];   // works but not preferred way.

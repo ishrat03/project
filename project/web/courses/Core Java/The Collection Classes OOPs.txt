@@ -1,0 +1,83 @@
+Java provides a set of standard collection classes that implement Collection interfaces. Some of the classes provide full implementations that can be used as-is and others are abstract class, providing skeletal implementations that are used as starting points for creating concrete collections.
+
+The standard collection classes are summarized in the following table -
+
+Sr.No.	Class & Description
+1	
+AbstractCollection
+
+Implements most of the Collection interface.
+
+2	
+AbstractList
+
+Extends AbstractCollection and implements most of the List interface.
+
+3	
+AbstractSequentialList
+
+Extends AbstractList for use by a collection that uses sequential rather than random access of its elements.
+
+4	LinkedList
+Implements a linked list by extending AbstractSequentialList.
+
+5	ArrayList
+Implements a dynamic array by extending AbstractList.
+
+6	
+AbstractSet
+
+Extends AbstractCollection and implements most of the Set interface.
+
+7	HashSet
+Extends AbstractSet for use with a hash table.
+
+8	LinkedHashSet
+Extends HashSet to allow insertion-order iterations.
+
+9	TreeSet
+Implements a set stored in a tree. Extends AbstractSet.
+
+10	
+AbstractMap
+
+Implements most of the Map interface.
+
+11	HashMap
+Extends AbstractMap to use a hash table.
+
+12	TreeMap
+Extends AbstractMap to use a tree.
+
+13	WeakHashMap
+Extends AbstractMap to use a hash table with weak keys.
+
+14	LinkedHashMap
+Extends HashMap to allow insertion-order iterations.
+
+15	IdentityHashMap
+Extends AbstractMap and uses reference equality when comparing documents.
+
+The AbstractCollection, AbstractSet, AbstractList, AbstractSequentialList and AbstractMap classes provide skeletal implementations of the core collection interfaces, to minimize the effort required to implement them.
+
+The following legacy classes defined by java.util have been discussed in the previous chapter -
+
+Sr.No.	Class & Description
+1	Vector
+This implements a dynamic array. It is similar to ArrayList, but with some differences.
+
+2	Stack
+Stack is a subclass of Vector that implements a standard last-in, first-out stack.
+
+3	Dictionary
+Dictionary is an abstract class that represents a key/value storage repository and operates much like Map.
+
+4	Hashtable
+Hashtable was part of the original java.util and is a concrete implementation of a Dictionary.
+
+5	Properties
+Properties is a subclass of Hashtable. It is used to maintain lists of values in which the key is a String and the value is also a String.
+
+6	BitSet
+A BitSet class creates a special type of array that holds bit values. This array can increase in size as needed.
+

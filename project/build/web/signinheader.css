@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 11, 2017, 4:09:06 PM
+    Author     : Mohd Ishrat
+*/
+
+.signin{
+    margin-left:  22%;
+    background-color: aqua;
+    
+    position: fixed;
+    top: 0;
+    
+}
+.signin button {
+    background-color: blueviolet; /* Green */
+    border: none;
+    color: white;
+    padding:0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    cursor: pointer;
+   float: left;
+    width: 150px;height: 40px;
+    }
+    .signin button a{
+        color:white;
+    }
+
+.signin button:hover {
+    background-color: red;
+    width: 150px;height: 50px;
+    border-radius: 5px;border:2px solid blue;
+    transform: skewX(180deg);
+}
+
+.signin button a{
+    text-decoration: none;
+    display: block;
+} 

@@ -1,0 +1,12 @@
+Common uses of PHP
+PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.
+
+PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.
+
+You add, delete, modify elements within your database through PHP.
+
+Access cookies variables and set cookies.
+
+Using PHP, you can restrict users to access some pages of your website.
+
+It can encrypt data.

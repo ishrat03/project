@@ -1,0 +1,27 @@
+Try it Option Online
+We have set up the PHP Programming environment on-line, so that you can compile and execute all the available examples on line. It gives you confidence in what you are reading and enables you to verify the programs with different options. Feel free to modify any example and execute it on-line.
+
+Try the following example using our on-line compiler available at CodingGround.
+
+<html>
+   <head>
+      <title>Online PHP Script Execution</title>
+   </head>
+   
+   <body>
+   
+      <?php
+         echo "<h1>Hello, PHP!</h1>";
+      ?>
+   
+   </body>
+</html>
+For most of the examples given in this tutorial, you will find a Try it option in our website code sections at the top right corner that will take you to the online compiler. So just make use of it and enjoy your learning.
+
+In order to develop and run PHP Web pages three vital components need to be installed on your computer system.
+
+Web Server - PHP will work with virtually all Web Server software, including Microsoft's Internet Information Server (IIS) but then most often used is freely available Apache Server. Download Apache for free here - https://httpd.apache.org/download.cgi
+
+Database - PHP will work with virtually all database software, including Oracle and Sybase but most commonly used is freely available MySQL database. Download MySQL for free here - https://www.mysql.com/downloads/
+
+PHP Parser - In order to process PHP script instructions a parser must be installed to generate HTML output that can be sent to the Web Browser. This tutorial will guide you how to install PHP parser on your computer.

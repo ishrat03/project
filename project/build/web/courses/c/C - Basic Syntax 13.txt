@@ -1,0 +1,1 @@
+You have seen the basic structure of a C program, so it will be easy to understand other basic building blocks of the C programming language.

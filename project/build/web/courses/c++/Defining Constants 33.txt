@@ -1,0 +1,6 @@
+Defining Constants
+There are two simple ways in C++ to define constants:
+
+Using #define preprocessor.
+
+Using const keyword.

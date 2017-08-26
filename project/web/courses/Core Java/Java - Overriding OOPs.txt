@@ -1,0 +1,36 @@
+In the previous chapter, we talked about superclasses and subclasses. If a class inherits a method from its superclass, then there is a chance to override the method provided that it is not marked final.
+
+The benefit of overriding is: ability to define a behavior that's specific to the subclass type, which means a subclass can implement a parent class method based on its requirement.
+
+In object-oriented terms, overriding means to override the functionality of an existing method.
+
+Example
+Let us look at an example.
+
+class Animal {
+   public void move() {
+      System.out.println("Animals can move");
+   }
+}
+
+class Dog extends Animal {
+   public void move() {
+      System.out.println("Dogs can walk and run");
+   }
+}
+
+public class TestDog {
+
+   public static void main(String args[]) {
+      Animal a = new Animal();   // Animal reference and object
+      Animal b = new Dog();   // Animal reference but Dog object
+
+      a.move();   // runs the method in Animal class
+      b.move();   // runs the method in Dog class
+   }
+}
+This will produce the following result -
+
+Output
+Animals can move
+Dogs can walk and run

@@ -1,0 +1,13 @@
+Doubles
+They like 3.14159 or 49.1. By default, doubles print with the minimum number of decimal places needed. For example, the code -
+
+<?php
+   $many = 2.2888800;
+   $many_2 = 2.2111200;
+   $few = $many + $many_2;
+   
+   print("$many + $many_2 = $few <br>");
+?>
+It produces the following browser output -
+
+2.28888 + 2.21112 = 4.5
